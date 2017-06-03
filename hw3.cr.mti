@@ -1,0 +1,161 @@
+C:/Users/USER/Desktop/4down/com/HW3/SRC/Jump_Ctrl.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Jump_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Jump_Ctrl
+
+Top level modules:
+	Jump_Ctrl
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_4to1_18bit.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_4to1_18bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_4to1_18bit
+
+Top level modules:
+	Mux_4to1_18bit
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/ID_EX.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/ID_EX.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/HDU.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/HDU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HDU
+
+Top level modules:
+	HDU
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/EX_M.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/EX_M.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EX_M
+
+Top level modules:
+	EX_M
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/ALU.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/FU.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/FU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FU
+
+Top level modules:
+	FU
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/IF_ID.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/IF_ID.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/SIgnExten_18.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/SIgnExten_18.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SignExten_18
+
+Top level modules:
+	SignExten_18
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/SignExten.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/SignExten.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SignExten
+
+Top level modules:
+	SignExten
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/Regfile.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Regfile.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Regfile
+
+Top level modules:
+	Regfile
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/IM.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/IM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/testfixture1.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/testfixture1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testfixture1
+
+Top level modules:
+	testfixture1
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/DM.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/DM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_2to1_5bit.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_2to1_5bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_2to1_5bit
+
+Top level modules:
+	Mux_2to1_5bit
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_2to1_32bit.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Mux_2to1_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_2to1_32bit
+
+Top level modules:
+	Mux_2to1_32bit
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/top.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/top.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+-- Compiling module Controller
+-- Compiling module DM
+-- Compiling module EX_M
+-- Compiling module FU
+-- Compiling module HDU
+-- Compiling module ID_EX
+-- Compiling module IF_ID
+-- Compiling module IM
+-- Compiling module Jump_Ctrl
+-- Compiling module M_WB
+-- Compiling module Mux_2to1_5bit
+-- Compiling module Mux_2to1_32bit
+-- Compiling module Mux_4to1_18bit
+-- Compiling module PC
+-- Compiling module Regfile
+-- Compiling module SignExten
+-- Compiling module SignExten_18
+-- Compiling module top
+
+Top level modules:
+	DM
+	IM
+	top
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/PC.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/PC.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/Controller.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/Controller.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/USER/Desktop/4down/com/HW3/SRC/M_WB.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/4down/com/HW3/SRC/M_WB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_WB
+
+Top level modules:
+	M_WB
+
+} {} {}}

@@ -1,0 +1,35 @@
+#! /usr/local/Cellar/icarus-verilog/10.1.1/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x7fdd4ed057b0 .scope module, "SignExten_18" "SignExten_18" 2 2;
+ .timescale 0 0;
+    .port_info 0 /INPUT 18 "input18bit"
+    .port_info 1 /OUTPUT 32 "output32bit"
+L_0x10563b008 .functor BUFT 1, C4<1>, C4<0>, C4<0>, C4<0>;
+L_0x7fdd4ec00d70 .functor XNOR 1, L_0x7fdd4ec00cb0, L_0x10563b008, C4<0>, C4<0>;
+v0x7fdd4ed05260_0 .net *"_s1", 0 0, L_0x7fdd4ec00cb0;  1 drivers
+L_0x10563b098 .functor BUFT 1, C4<00000000000000>, C4<0>, C4<0>, C4<0>;
+v0x7fdd4ed15870_0 .net/2u *"_s10", 13 0, L_0x10563b098;  1 drivers
+v0x7fdd4ed15910_0 .net *"_s12", 31 0, L_0x7fdd4ec01050;  1 drivers
+v0x7fdd4ed159c0_0 .net/2u *"_s2", 0 0, L_0x10563b008;  1 drivers
+v0x7fdd4ed15a70_0 .net *"_s4", 0 0, L_0x7fdd4ec00d70;  1 drivers
+L_0x10563b050 .functor BUFT 1, C4<11111111111111>, C4<0>, C4<0>, C4<0>;
+v0x7fdd4ed15b50_0 .net/2u *"_s6", 13 0, L_0x10563b050;  1 drivers
+v0x7fdd4ed15c00_0 .net *"_s8", 31 0, L_0x7fdd4ec00ed0;  1 drivers
+o0x105609158 .functor BUFZ 18, C4<zzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7fdd4ed15cb0_0 .net "input18bit", 17 0, o0x105609158;  0 drivers
+v0x7fdd4ed15d60_0 .net "output32bit", 31 0, L_0x7fdd4ec01170;  1 drivers
+L_0x7fdd4ec00cb0 .part o0x105609158, 17, 1;
+L_0x7fdd4ec00ed0 .concat [ 18 14 0 0], o0x105609158, L_0x10563b050;
+L_0x7fdd4ec01050 .concat [ 18 14 0 0], o0x105609158, L_0x10563b098;
+L_0x7fdd4ec01170 .functor MUXZ 32, L_0x7fdd4ec01050, L_0x7fdd4ec00ed0, L_0x7fdd4ec00d70, C4<>;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "SignExten_18.v";
